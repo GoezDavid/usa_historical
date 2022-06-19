@@ -1,1 +1,54 @@
 
+.map-image {
+    width: 90%;
+    float: left;
+    }
+
+    .map-image path {
+        fill: lightblue;
+        transition: color 0.3s;
+        stroke: white;
+        stroke-width: 1px;
+            }
+
+            .map-image path:hover {
+                fill: blue;
+
+                    }
+
+
+    .map-list {
+        float: right;
+        width: 10%;
+    }
+    .map-list a {
+
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .map-list a:hover {
+
+        text-decoration: underline;
+
+    }
+
+.logo {
+    font-family: 'Rio Grande', sans-serif;
+    color: red;
+    border-color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+nav {
+    background: blue;
+    margin-bottom: 2rem;
+
+
+}
+    
+ 
+    
